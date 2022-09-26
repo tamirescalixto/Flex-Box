@@ -8,8 +8,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     font-size: 100%;
     background-image: url(../images/kai-dahms-SbrZdkLtTCY-unsplash.jpg);
     background-repeat: no-repeat;
@@ -36,10 +34,9 @@ header {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top : 25px;
-    gap: 25px;
 }
 
 #bloco:hover img {
@@ -68,6 +65,8 @@ header {
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(12.5px);
     width: 100%;
