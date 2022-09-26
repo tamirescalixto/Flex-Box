@@ -12,9 +12,7 @@ body {
     flex-direction: column;
     font-size: 100%;
     background-image: url(../images/kai-dahms-SbrZdkLtTCY-unsplash.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
 }
 
 header {
@@ -36,7 +34,8 @@ header {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 24px;
     flex-wrap: wrap;
     padding-top : 25px;
 }
@@ -67,7 +66,8 @@ header {
 }
 
 .footer {
-    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(12.5px);
     width: 100%;
