@@ -8,8 +8,10 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-size: 100%;
     background-image: url(../images/kai-dahms-SbrZdkLtTCY-unsplash.jpg);
     background-size: cover;
@@ -31,13 +33,13 @@ header {
 }
 
 .container {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    padding-top : 25px;
+
+    padding: 25px;
 }
 
 #bloco:hover img {
@@ -65,7 +67,7 @@ header {
     cursor: pointer;
 }
 
-.footer {
+footer {
     margin: 0 auto;
     display: flex;
     background: rgba(255, 255, 255, 0.25);
